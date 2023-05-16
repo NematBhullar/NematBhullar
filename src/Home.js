@@ -3,10 +3,13 @@ import useScrollSnap from "react-use-scroll-snap";
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Typewriter from "typewriter-effect";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const scrollRef = useRef(null);
-  useScrollSnap({ ref: scrollRef, duration: 10, delay: 0 });
+  const navigate = useNavigate();
+
+  useScrollSnap({ ref: scrollRef, duration: 10, delay: 0});
 
   return (
     <div>
@@ -40,8 +43,8 @@ const Home = () => {
           <p>About me...</p>
         </div>
         <div className="button-link">
-          <button>Software Projects</button>
-          <button>UX/UI Designs</button>
+          <button onClick={() => navigate("/projects")}>Software Projects</button>
+          <button onClick={() => navigate("/designs")}>UI/UX Designs</button>
         </div>
         <Footer/>
       </div>
