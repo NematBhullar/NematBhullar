@@ -1,6 +1,9 @@
+import Navbar from './Navbar';
+
 const Projects = () => {
     return (
         <div>
+            <Navbar/>
             Projects!
         </div>
     )
