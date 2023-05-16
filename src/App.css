@@ -2,33 +2,95 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+h1 {
+  font-size: 80px;
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+
 p {
   margin: 0;
   padding: 0;
 }
 
+.button-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  height: 10vh;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 250px;
+  height: 50px;
+  margin: 2rem;
+  color: #43c6d8;
+  background-color: #fff;
+  border: solid 3px #43c6d8;
+}
+
+button:hover {
+  border: none;
+  background-image: linear-gradient(-90deg, #43c6d8, #a5aafc);
+  color: #fff;
+}
+
+.name {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.caption {
+  font-size: 30px;
+  margin: 0rem 2rem;
+}
+
 .home {
-  background-color: #35B4C6;
+  display: flex;
+  background-image: linear-gradient(#43c6d8, #a5aafc);
   color: white;
-  height: 100vh;
+  height: calc(100vh - 82px);
+  align-items: center;
+}
+
+.home-main {
+  margin-left: 5rem;
+  margin-bottom: 5rem;
 }
 
 .about {
   background-color: white;
   color: #2B2B2B;
   height: 100vh;
+  width: 100vw;
+}
+
+.about-main {
+  height: 55vh;
+}
+
+.about-main p {
+  font-size: 20px;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #35B4C6;
+  background-color: #43c6d8;
+  font-size: 20px;
   color: white;
+  align-items: center;
 }
 
 .links {
-  margin-top: 2rem;
   list-style: none;
   text-align: right;
 }
@@ -39,7 +101,98 @@ p {
 }
 
 .logo {
-  margin: 1rem;
-  width: 50px;
-  height: 50px;
+  margin: 1.5rem;
+  width: 60px;
+  height: 60px;
+}
+
+.scroll {
+  position: fixed;
+  display: block;
+  height: 50%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.scroll p {
+  transform: rotate(-90deg);
+}
+
+.line {
+  border-left: 1px solid white;
+  height: 20%;
+  margin: 2rem;
+}
+
+.footer {
+  display: flex;
+  padding-left: 5rem;
+  height: 25vh;
+  border: 1px solid #2B2B2B;
+  background-color: #2B2B2B;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 60px;
+    margin-left: 5rem;
+  }
+
+  button {
+    font-size: 15px;
+    margin: 1rem;
+  }
+  
+  .home {
+    height: 100vh;
+  }
+
+  .name {
+    font-size: 60px;
+  }
+
+  .about p {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-left: 3rem;
+  }
+
+  button {
+    font-size: 15px;
+    margin: 1rem;
+  }
+
+  .home-main {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about p {
+    margin-left: 3rem;
+  }
+
+  .footer {
+    padding-left: 3rem;
+  }
+
+  .scroll {
+    margin: 2.5rem 0 0 0;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .caption {
+    font-size: 20px;
+    margin: 0rem 2rem;
+  }
 }

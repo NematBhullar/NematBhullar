@@ -1,26 +1,20 @@
 import './App.css';
-import React, { useRef } from "react";
-import useScrollSnap from "react-use-scroll-snap";
-import Navbar from './Navbar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import Projects from './Projects';
 
 function App() {
-  const scrollRef = useRef(null);
-  useScrollSnap({ ref: scrollRef, duration: 10, delay: 0 });
-
   return (
-    <div>
-      <Navbar />
-      <div className="home" ref={scrollRef}>
-        <p>Hi, my name is</p>
-        <h1>Nemat Bhullar.</h1>
-        <p>Software Engineer</p>
-      </div>
-      <div className="about" ref={scrollRef}>
-        <h1>About Me</h1>
-        <p>About me...</p>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path='/contact-me' element={<LoginPage />} />
+        <Route path='/resume' element={<RegisterPage />} /> */}
+        <Route path='/' element={<Home />} />
+        <Route path='/projects' element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
   );
+
 }
 
 export default App;
