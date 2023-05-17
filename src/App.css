@@ -5,8 +5,15 @@ body {
 
 h1 {
   font-size: 80px;
-  margin-top: 5rem;
-  margin-left: 7rem;
+  padding-top: 5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+h1 span {
+  background-image: url('./assets/text-icon.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 p {
@@ -14,71 +21,14 @@ p {
   padding: 0;
 }
 
-button {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 25px;
-  width: 250px;
-  height: 50px;
-  margin: 2rem;
-  color: #43c6d8;
-  background-color: #fff;
-  border: solid 3px #43c6d8;
-}
-
-button:hover {
-  border: none;
-  background-image: linear-gradient(-90deg, #43c6d8, #a5aafc);
-  color: #fff;
-}
-
-.button-link {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5rem;
-  height: 10vh;
-}
-
-.name {
-  font-size: 100px;
-  font-weight: bold;
-  margin: 2rem;
-}
-
-.caption {
-  font-size: 30px;
-  margin: 0rem 2rem;
-}
-
-.home {
-  display: flex;
-  background-image: linear-gradient(#43c6d8, #a5aafc);
-  color: white;
-  height: calc(100vh - 82px);
-  align-items: center;
-}
-
-.home-main {
-  margin-left: 5rem;
-  margin-bottom: 5rem;
-}
-
-.about {
-  background-color: white;
-  color: #2B2B2B;
+.scroll-container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
   height: 100vh;
-  width: 100vw;
 }
 
-.about-main {
-  height: 55vh;
-}
-
-.about-main p {
-  font-size: 20px;
-  margin-left: 7rem;
-  margin-bottom: 3rem;
+.scroll-area {
+  scroll-snap-align: center;
 }
 
 .nav {
@@ -89,22 +39,53 @@ button:hover {
   font-size: 20px;
   color: white;
   align-items: center;
+  padding-right: 1rem;
+  height: 100px;
 }
 
-.links {
+.nav-blue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 20px;
+  color: #2B2B2B;
+  align-items: center;
+  padding-right: 1rem;
+  height: 100px;
+}
+
+.logo {
+  margin: 1.5rem 0 1.5rem 1.5rem;
+  width: 60px;
+  height: 60px;
+}
+
+.links, .links-blue {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.links, .links-blue, .links-small, .links-small-blue {
   list-style: none;
   text-align: right;
 }
 
-.links li {
-  padding: 2rem;
+.links-small, .links-small-blue {
+  display: none;
+}
+
+.links li, .links-blue li, .links-small li, .links-small-blue li {
+  padding: 1rem;
   display: inline;
 }
 
-.logo {
-  margin: 1.5rem;
-  width: 60px;
-  height: 60px;
+.links li:hover, .links-small li:hover  {
+  color: #2B2B2B;
+}
+
+.links-blue li:hover, .links-small-blue li:hover {
+  color: #43c6d8;
 }
 
 .scroll {
@@ -125,10 +106,110 @@ button:hover {
   margin: 2rem;
 }
 
+.name {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.caption {
+  font-size: 30px;
+  margin: 0rem 2rem;
+}
+
+.home {
+  display: flex;
+  background-image: linear-gradient(#43c6d8, #a5aafc);
+  color: white;
+  height: calc(100vh - 100px);
+  align-items: center;
+}
+
+.home-main {
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+.about {
+  position: relative;
+  color: #2B2B2B;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about p, .contact-main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
+
+.contact-main p {
+  margin-bottom: 3rem;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  width: 250px;
+  height: 50px;
+  margin: 2rem;
+  color: #2b2b2b;
+  background-color: #fff;
+  border: solid 3px #2b2b2b;
+}
+
+button:hover {
+  border: none;
+  background-image: linear-gradient(-90deg, #43c6d8, #a5aafc);
+  color: #fff;
+}
+
+.button-link {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  justify-content: center;
+}
+
+.contact {
+  height: calc(100vh - 200px);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-info div {
+  margin: 0 2rem 1.5rem 2rem;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+}
+
+.section-heading {
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 1rem;
+}
+
 .footer {
   display: flex;
   padding-left: 5rem;
-  height: 25vh;
+  height: 200px;
+  width: 100vw;
   border: 1px solid #2B2B2B;
   background-color: #2B2B2B;
   font-size: 20px;
@@ -136,34 +217,116 @@ button:hover {
   align-items: center;
 }
 
+
+.each-project {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem 0;
+  justify-content: center;
+}
+
+.each-project .project-box {
+  width: 50vw;
+  height: 50vh;
+  text-align: center;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  text-align: center;
+}
+
+.project-name p {
+  background-color: white;
+  margin: 2rem 0;
+}
+
+.line-dark {
+  border-left: 1px solid #d3d3d3;
+  height: 50%;
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 700px) {
   h1 {
     font-size: 60px;
-    margin-left: 5rem;
   }
 
   button {
     font-size: 15px;
     margin: 1rem;
   }
-  
+
+  .links {
+    display: none;
+  }
+
+  .links-small {
+    display: inline;
+  }
+
+  .links-blue {
+    display: none;
+  }
+
+  .links-small-blue {
+    display: inline;
+  }
+
   .home {
-    height: 100vh;
+    height: calc(100vh - 100px);
+  }
+
+  .about p {
+    font-size: 17px;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   .name {
     font-size: 60px;
   }
 
-  .about p {
-    margin-left: 5rem;
+  .each-project {
+    display: inline;
+    margin: 2rem 0;
+  }
+
+  .each-project .project-box {
+    width: 75vw;
+    float: right;
+  }
+  
+  .project-name {
+    float: left;
+    width: 100px;
+  }
+
+  .project-name p {
+    transform: rotate(-90deg);
+    justify-content: space-between;
+    width: 100px;
+    margin: 1rem 0;
+  }
+
+  .line-dark {
+    height: calc(50vh - 20px - 1rem);
   }
 }
 
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 50px;
-    margin-left: 3rem;
   }
 
   button {
@@ -175,25 +338,36 @@ button:hover {
     margin-left: 2rem;
     margin-bottom: 3rem;
   }
-  
-  .about p {
-    margin-left: 3rem;
-  }
 
-  .footer {
-    padding-left: 3rem;
+  .about p {
+    font-size: 15px;
+  }
+  
+  .name {
+    font-size: 50px;
   }
 
   .scroll {
     margin: 2.5rem 0 0 0;
   }
 
-  .name {
-    font-size: 50px;
-  }
-
   .caption {
     font-size: 20px;
     margin: 0rem 2rem;
+  }
+
+  .footer {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-name {
+    display: none;
+  }
+
+  .each-project .project-box {
+    width: 100vw;
+    float: right;
   }
 }
