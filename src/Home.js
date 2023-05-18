@@ -47,12 +47,11 @@ const Home = () => {
       <div className="about scroll-area" ref={scrollRef} id="about">
         <h1><span>About Me</span></h1>
         <div className="about-main">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. </p>
-          <p>Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-          <p>Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Hello! My name is Nemat and I'm currently pursuing a degree in software engineering. I enjoy coding 
+            and building websites, whilst spending my free time marketing or creating UI/UX designs. </p>
+          <p>I've been interested in web development since high school, where I delved in simple Python projects through
+            NCSS and created a tic-tac-toe game and a bowling scorecard.</p>
+          <p>Fast forward to today I'm in my penultimate year of engineering, creating various software projects with enthusiastic teams. </p> 
         </div>
         <div className="button-link">
           <button onClick={() => navigate("/portfolio")}>Portfolio</button>
