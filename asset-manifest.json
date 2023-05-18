@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nematbhullar-portfolio/static/css/main.875c79e5.css",
+    "main.css": "/nematbhullar-portfolio/static/css/main.a001989a.css",
     "main.js": "/nematbhullar-portfolio/static/js/main.dbb0880a.js",
     "static/js/787.1ed0c42c.chunk.js": "/nematbhullar-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/weatherapp.png": "/nematbhullar-portfolio/static/media/weatherapp.836f874b107dec31f868.png",
@@ -10,12 +10,12 @@
     "static/media/logo-transparent.png": "/nematbhullar-portfolio/static/media/logo-transparent.1c863528a7e25d6d16c8.png",
     "static/media/logo-white.png": "/nematbhullar-portfolio/static/media/logo-white.10df53963ec836a63428.png",
     "index.html": "/nematbhullar-portfolio/index.html",
-    "main.875c79e5.css.map": "/nematbhullar-portfolio/static/css/main.875c79e5.css.map",
+    "main.a001989a.css.map": "/nematbhullar-portfolio/static/css/main.a001989a.css.map",
     "main.dbb0880a.js.map": "/nematbhullar-portfolio/static/js/main.dbb0880a.js.map",
     "787.1ed0c42c.chunk.js.map": "/nematbhullar-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.875c79e5.css",
+    "static/css/main.a001989a.css",
     "static/js/main.dbb0880a.js"
   ]
 }
