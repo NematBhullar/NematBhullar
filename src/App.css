@@ -257,6 +257,7 @@ button:hover {
 }
 
 .each-project .project-box {
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   width: 50vw;
