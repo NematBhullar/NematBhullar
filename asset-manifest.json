@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.08c9ee64.css",
+    "main.js": "/react-gh-pages/static/js/main.e373738d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js",
+    "static/media/weatherapp.png": "/react-gh-pages/static/media/weatherapp.836f874b107dec31f868.png",
+    "static/media/lurkforwork.png": "/react-gh-pages/static/media/lurkforwork.622fb77b13b1ab862991.png",
+    "static/media/invoice.png": "/react-gh-pages/static/media/invoice.12f4770f68d1d018182b.png",
+    "static/media/text-icon.png": "/react-gh-pages/static/media/text-icon.02255e371febbc553873.png",
+    "static/media/logo-transparent.png": "/react-gh-pages/static/media/logo-transparent.1c863528a7e25d6d16c8.png",
+    "static/media/logo-white.png": "/react-gh-pages/static/media/logo-white.10df53963ec836a63428.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.08c9ee64.css.map": "/react-gh-pages/static/css/main.08c9ee64.css.map",
+    "main.e373738d.js.map": "/react-gh-pages/static/js/main.e373738d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08c9ee64.css",
+    "static/js/main.e373738d.js"
+  ]
+}
