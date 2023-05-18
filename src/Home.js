@@ -44,7 +44,7 @@ const Home = () => {
       </div>
       
       {/* About page */}
-      <div className="about scroll-area" ref={scrollRef}>
+      <div className="about scroll-area" ref={scrollRef} id="about">
         <h1><span>About Me</span></h1>
         <div className="about-main">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -55,13 +55,14 @@ const Home = () => {
             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div className="button-link">
-          <button onClick={() => navigate("/portfolio")}>Software Portfolio</button>
-          <button>UI/UX Portfolio</button>
+          <button onClick={() => navigate("/portfolio")}>Portfolio</button>
+          <button>Resume</button>
         </div>
+        <hr />
       </div>
 
        {/* Contact page */}
-       <div className="scroll-area" ref={scrollRef}>
+       <div className="scroll-area" ref={scrollRef} id="contact">
         <div className="contact">
           <div className="contact-main">
             <h1><span>Contact Me</span></h1>
@@ -84,6 +85,7 @@ const Home = () => {
               <img src={git} className="social" alt="github"/>
             </div>
           </div>
+          <hr />
         </div>
         <Footer/>
        </div>

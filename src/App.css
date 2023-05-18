@@ -1,11 +1,12 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Inter', sans-serif;
   scroll-snap-type: y mandatory;
 }
 
 h1 {
+  font-family: 'Space Mono', monospace;
   font-size: 80px;
-  padding-top: 5rem;
+  padding-top: 4rem;
   margin-top: 0;
   text-align: center;
 }
@@ -19,6 +20,30 @@ h1 span {
 p {
   margin: 0;
   padding: 0;
+}
+
+hr {
+  margin-top: 2rem;
+  width: 50%;
+  border: 0.5px solid #d3d3d3;
+}
+
+.a-normal {
+  text-decoration: none;
+  color: white
+}
+
+.a-normal:hover {
+  color: #2B2B2B;
+}
+
+.a-blue {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.a-blue:hover {
+  color: #43c6d8
 }
 
 .scroll-container {
@@ -107,12 +132,14 @@ p {
 }
 
 .name {
+  font-family: 'Space Mono', monospace;
   font-size: 100px;
   font-weight: bold;
   margin: 2rem;
 }
 
 .caption {
+  font-family: 'Space Mono', monospace;
   font-size: 30px;
   margin: 0rem 2rem;
 }
@@ -200,14 +227,15 @@ button:hover {
 }
 
 .section-heading {
-  font-size: 15px;
-  color: grey;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  color: #43c6d8;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .footer {
   display: flex;
-  padding-left: 5rem;
   height: 200px;
   width: 100vw;
   border: 1px solid #2B2B2B;
@@ -217,6 +245,9 @@ button:hover {
   align-items: center;
 }
 
+.footer p {
+  padding-left: 5rem;
+}
 
 .each-project {
   display: flex;
@@ -226,9 +257,25 @@ button:hover {
 }
 
 .each-project .project-box {
+  display: flex;
+  flex-direction: column;
   width: 50vw;
   height: 50vh;
+  margin: 1rem;
+  padding: 1rem;
   text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-wrap: anywhere;
+}
+
+.background-lightgrey {
+  background-color: rgb(248, 248, 248);
+}
+
+.project-image {
+  height: 100%;
+  box-shadow: 3px 3px 10px darkgray;
 }
 
 .project-name {
@@ -239,7 +286,9 @@ button:hover {
 }
 
 .project-name p {
-  background-color: white;
+  font-family: 'Space Mono', monospace;
+  width: 150px;
+  text-align: center;
   margin: 2rem 0;
 }
 
@@ -249,11 +298,60 @@ button:hover {
   margin-left: 50%;
 }
 
+@media screen and (max-width: 900px) {
+  .each-project {
+    display: inline;
+    margin: 2rem 0;
+  }
+
+  .each-project .project-box {
+    width: 75vw;
+    float: right;
+    margin: 0 0 2rem 0;
+    justify-content: space-evenly;
+  }
+  
+  .project-name {
+    float: left;
+    width: 100px;
+  }
+
+  .project-name p {
+    transform: rotate(-90deg);
+    justify-content: space-between;
+    width: 100px;
+  }
+
+  .project-box p, .project-box a {
+    font-size: 18px;
+  }
+
+  .project-box .section-heading {
+    font-size: 14px;
+  }
+
+  .line-dark {
+    height: calc(50vh - 20px - 1rem);
+  }
+}
+
 @media screen and (max-width: 800px) {
   .contact-info {
     flex-direction: column;
     text-align: center;
     align-items: center;
+  }
+
+  .contact-main p {
+    margin-bottom: 1rem;
+  }
+
+  .contact hr {
+    display: none;
+  }
+
+  .project-box .section-heading {
+    font-size: 14px;
   }
 }
 
@@ -287,44 +385,21 @@ button:hover {
     height: calc(100vh - 100px);
   }
 
-  .about p {
-    font-size: 17px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-  }
-
   .name {
     font-size: 60px;
   }
 
-  .each-project {
-    display: inline;
-    margin: 2rem 0;
+  .section-heading {
+    margin: 0.5rem;
   }
 
-  .each-project .project-box {
-    width: 75vw;
-    float: right;
-  }
-  
-  .project-name {
-    float: left;
-    width: 100px;
-  }
-
-  .project-name p {
-    transform: rotate(-90deg);
-    justify-content: space-between;
-    width: 100px;
-    margin: 1rem 0;
-  }
-
-  .line-dark {
-    height: calc(50vh - 20px - 1rem);
+  .project-image {
+    width: 100%;
+    height: auto;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   h1 {
     font-size: 50px;
   }
@@ -337,10 +412,6 @@ button:hover {
   .home-main {
     margin-left: 2rem;
     margin-bottom: 3rem;
-  }
-
-  .about p {
-    font-size: 15px;
   }
   
   .name {
@@ -356,18 +427,25 @@ button:hover {
     margin: 0rem 2rem;
   }
 
-  .footer {
-    padding-left: 3rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
   .project-name {
     display: none;
   }
 
   .each-project .project-box {
     width: 100vw;
-    float: right;
+    height: auto;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .project-box p {
+    padding: 0 1rem;
+  }
+
+  .about p, .contact-main p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 17px;
   }
 }
