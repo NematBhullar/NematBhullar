@@ -56,6 +56,26 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Projects page */}
+      <div className="scroll-area" ref={scrollRef} id="projects">
+        <div className="projects">
+          <h1><span>Projects</span></h1>
+          <div className="projects-main">
+
+          </div>
+        </div>
+      </div>
+
+      {/* Designs page */}
+      <div className="scroll-area" ref={scrollRef} id="designs">
+        <div className="designs">
+          <h1><span>Designs</span></h1>
+          <div className="designs-main">
+
+          </div>
+        </div>
+      </div>
+
        {/* Contact page */}
        <div className="scroll-area" ref={scrollRef} id="contact">
         <Overlay />
@@ -83,6 +103,9 @@ const Home = () => {
           </div>
           <div className="footer">
             {/* Footer */}
+          </div>
+          <div className="final-message">
+            Designed and handcrafted by Nemat Bhullar
           </div>
         </div>
        </div>

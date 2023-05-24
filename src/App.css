@@ -7,8 +7,8 @@ body {
 h1 {
   font-family: 'Space Mono', monospace;
   font-size: 80px;
-  padding-top: 5rem;
   margin-top: 0;
+  margin-bottom: 2rem;
   text-align: center;
   color: white;
 }
@@ -18,8 +18,8 @@ h1 span {
     to bottom, 
     transparent,
     transparent 70%,
-    #43c6d8 30%,
-    #43c6d8
+    #36B5C6 30%,
+    #36B5C6
   );
   background-size: 150% 90%;
   background-repeat: no-repeat;
@@ -163,17 +163,18 @@ p {
   margin-bottom: 5rem;
 }
 
-.about, .contact {
+.about, .contact, .projects, .designs {
   background-color: #23232F;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .about-main, .contact-main {
-  max-width: 700px;
+  width: 700px;
   justify-content: space-between;
 }
 
@@ -185,32 +186,44 @@ p {
 
 .about-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .about-main p {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .text {
   width: 100%;
+  background: 
+    linear-gradient(to right, #36B5C6 8px, transparent 8px) 0 0,
+    linear-gradient(to right, #36B5C6 8px, transparent 8px) 0 100%,
+    linear-gradient(to left, #36B5C6 8px, transparent 8px) 100% 0,
+    linear-gradient(to left, #36B5C6 8px, transparent 8px) 100% 100%,
+    linear-gradient(to bottom, #36B5C6 8px, transparent 8px) 0 0,
+    linear-gradient(to bottom, #36B5C6 8px, transparent 8px) 100% 0,
+    linear-gradient(to top, #36B5C6 8px, transparent 8px) 0 100%,
+    linear-gradient(to top, #36B5C6 8px, transparent 8px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
 }
 
 .about-icons {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .about-icon {
-  width: 60px;
-  margin: 1rem;
+  width: 50px;
+  height: 40px;
+  padding: 1rem;
 }
 
 .contact-main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .contact-info {
@@ -224,6 +237,7 @@ p {
   width: 30px;
   height: 30px;
   margin: 0 0.5rem;
+  fill: white;
 }
 
 .section-heading {
@@ -235,13 +249,22 @@ p {
 }
 
 .footer {
-  width: 50vw;
+  width: 700px;
   height: 150px;
   border-radius: 20px;
   background-color: #43c6d8;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 4rem;
   text-align: center;
+}
+
+.final-message {
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Space Mono', monospace;
+  font-size: 8px;
+  color: #dddddd;
 }
 
 @media screen and (max-width: 800px) {
