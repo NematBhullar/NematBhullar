@@ -18,9 +18,10 @@ const Home = () => {
     <div className="scroll-container">
       {/* Start page */}
       <div className="scroll-area" ref={scrollRef} id="home">
+        <Overlay />
         <Navbar/>
         <div className="home">
-          <Overlay />
+          
           <div className="home-main">
             <p className="caption">Hi, my name is</p>
             <div className="name">
@@ -41,7 +42,6 @@ const Home = () => {
       {/* About page */}
       <div className="scroll-area" ref={scrollRef} id="about">
         <div className="about">
-          <Overlay />
           <h1><span>About Me</span></h1>
           <div className="about-main">
             <div className="text">
@@ -58,8 +58,8 @@ const Home = () => {
 
        {/* Contact page */}
        <div className="scroll-area" ref={scrollRef} id="contact">
+        <Overlay />
         <div className="contact">
-          <Overlay />
           <h1><span>Contact Me</span></h1>
           <div className="contact-main">
             <p>For any enquiries, or just to say hello, feel free to reach out through my socials.</p>
@@ -81,8 +81,10 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className="footer">
+            {/* Footer */}
+          </div>
         </div>
-        {/* <Footer/> */}
        </div>
     </div>
   );
