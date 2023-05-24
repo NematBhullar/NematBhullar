@@ -170,8 +170,9 @@ p {
 }
 
 .about-main, .contact-main {
-  margin-left: 20vw;
-  margin-right: 20vw;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  justify-content: space-between;
 }
 
 .about-main p, .contact-main p {
@@ -183,12 +184,15 @@ p {
 .about-main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .about-main p {
   margin: 1rem;
-  padding-right: 3rem;
+}
+
+.text {
+  width: 100%;
+  max-width: 600px;
 }
 
 .about-icons {
