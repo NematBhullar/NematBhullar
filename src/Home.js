@@ -8,6 +8,8 @@ import linked from "./assets/linkedin.png";
 import fb from "./assets/facebook.png";
 import insta from "./assets/insta.png";
 import git from "./assets/git.png";
+import gitlink from "./assets/git-link.png";
+import link from "./assets/link.png";
 
 const Home = () => {
   const scrollRef = useRef(null);
@@ -33,8 +35,7 @@ const Home = () => {
                 }
               />
             </div>
-            <p className="caption2">Software Engineer</p>
-            <p className="caption3">3rd Year at University of New South Wales</p>
+            <p className="caption2">I'm a Software Engineer, currently in my 3rd Year of study at the University of New South Wales.</p>
           </div>
         </div>
       </div>
@@ -82,7 +83,33 @@ const Home = () => {
         <div className="projects">
           <h1><span>Projects</span></h1>
           <div className="projects-main">
-
+            <div className="each-project-div">
+              <p className="project-heading">Title</p>
+              <div className="each-project">
+              </div>
+              <div>
+                <img src={gitlink} alt="gitlink"/>
+                <img src={link} alt="link"/>
+              </div>
+              <p className="project-skills">React &#183; JavaScript</p>
+            </div>
+            <div className="each-project-div">
+            <p className="project-heading">Title</p>
+              <div className="each-project">
+              </div>
+              <div>
+                <img src={gitlink} alt="gitlink"/>
+                <img src={link} alt="link"/>
+              </div>
+            </div>
+            <div className="each-project-div">
+            <p className="project-heading">Title</p>
+              <div className="each-project">
+              </div>
+              <div>
+                <img src={gitlink} alt="gitlink"/>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -92,7 +119,7 @@ const Home = () => {
         <div className="designs">
           <h1><span>Designs</span></h1>
           <div className="designs-main">
-
+            
           </div>
         </div>
       </div>
@@ -107,11 +134,11 @@ const Home = () => {
             <div className="contact-info">
               <div>
                 <p className="section-heading">Phone</p>
-                <p>+ 61 490 120 843</p> 
+                <p className="text-info">+ 61 490 120 843</p> 
               </div>
               <div>
                 <p className="section-heading">Email</p>
-                <p>nematbhullar18@gmail.com</p>
+                <p className="text-info">nematbhullar18@gmail.com</p>
               </div>
               <div>
                 <p className="section-heading">Socials</p>
