@@ -126,9 +126,14 @@ p {
   margin-left: 0.5rem;
 }
 
+.overlay-email p:hover {
+  color: #43C6D8;
+}
+
 .overlay-socials img {
   width: 20px;
   padding: 0.5rem;
+  transition: transform .2s;
 }
 
 .line {
@@ -145,10 +150,25 @@ p {
   margin: 0 2rem;
 }
 
-.caption {
+.caption1 {
   font-family: 'Space Mono', monospace;
   font-size: 25px;
   margin: 0rem 2rem;
+  color: white;
+}
+
+.caption2 {
+  font-family: 'Inter', 'san-serif';
+  font-size: 25px;
+  margin: 0rem 2rem;
+  color: white;
+}
+
+.caption3 {
+  font-family: 'Inter', 'san-serif';
+  font-size: 18px;
+  margin: 0rem 2rem;
+  color: white;
 }
 
 .home {
@@ -180,18 +200,18 @@ p {
 }
 
 .about-main p, .contact-main p {
-  font-family: 'Space Mono', monospace;
   font-size: 16px;
   text-align: left;
 }
 
 .about-main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.about-main p {
+.text p {
   margin: 2rem;
+  line-height: 1.6;
 }
 
 .text {
@@ -207,9 +227,61 @@ p {
     linear-gradient(to top, #A065FE 8px, transparent 8px) 100% 100%;
   background-repeat: no-repeat;
   background-size: 40px 40px;
+  transition: transform .2s;
 }
 
-.about-icons {
+.text:hover {
+  transform: scale(1.1);
+}
+
+.skill-container {
+  font-family: 'Inter', 'san-serif';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  margin: 0 0 0 2rem;
+}
+
+.skill-div {
+  margin: 0.5rem;
+}
+
+.skill-list {
+  border-radius: 20px;
+  padding: 0.5rem 1rem 1rem 2rem;
+  transition: transform .2s;
+  list-style: none;
+  margin: 0.5rem;
+}
+
+.skill-list:hover {
+  background-color: #A065FE;
+  transform: scale(1.1);
+}
+
+.skill-list li:before {   
+  content: "";  
+  border-color: transparent white;  
+  border-style: solid;  
+  border-width: 0.3em 0 0.3em 0.4em;  
+  display: block;  
+  height: 0;  
+  width: 0;  
+  left: -1em;  
+  top: 0.9em;  
+  position: relative;  
+} 
+
+.skill-heading {
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-size: 14px;
+  color: #A065FE;
+  border-radius: 20px;
+}
+
+/* .about-icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -217,19 +289,24 @@ p {
 }
 
 .about-icon {
-  width: 50px;
-  height: 40px;
-  padding: 1rem;
+  width: 60px;
+  height: 50px;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 .about-icon:hover {
-  filter: hue-rotate(-78deg) saturate(1.1) brightness(1.2);
-}
+  filter: hue-rotate(-78deg) saturate(0.5) brightness(1.4);
+} */
 
 .contact-main {
   display: flex;
   flex-direction: column;
 }
+
+.contact-main p {
+  text-align: center;
+}
+
 
 .contact-info {
   display: flex;
@@ -243,10 +320,12 @@ p {
   height: 30px;
   margin: 0 0.5rem;
   fill: white;
+  transition: transform .2s;
 }
 
 .social:hover, .overlay-socials img:hover {
-  filter: sepia(40%) contrast(40%) saturate(3);
+  filter: contrast(0.2) sepia(1) hue-rotate(140deg) saturate(1.4) brightness(1.05);
+  transform: scale(1.2);
 }
 
 .section-heading {
@@ -276,11 +355,12 @@ p {
   color: #dddddd;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .contact-info {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    padding-top: 1rem;
   }
 
   .contact-main p {
@@ -292,68 +372,6 @@ p {
   }
 }
 
-@media screen and (max-width: 700px) {
-  h1 {
-    font-size: 60px;
-  }
+@media screen and (max-width: 400px) {
 
-  button {
-    font-size: 15px;
-    margin: 1rem;
-  }
-
-  .home {
-    height: calc(100vh - 100px);
-  }
-
-  .name {
-    font-size: 60px;
-  }
-
-  .section-heading {
-    margin: 0.5rem;
-  }
-
-  .all-links {
-    display: none;
-  }
-
-  .all-links-small {
-    display: inline;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  h1 {
-    font-size: 50px;
-  }
-
-  button {
-    font-size: 15px;
-    margin: 1rem;
-  }
-
-  .home-main {
-    margin-left: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .name {
-    font-size: 50px;
-  }
-
-  .scroll {
-    margin: 2.5rem 0 0 0;
-  }
-
-  .caption {
-    font-size: 20px;
-    margin: 0rem 2rem;
-  }
-
-  .about p, .contact-main p {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    font-size: 17px;
-  }
 }

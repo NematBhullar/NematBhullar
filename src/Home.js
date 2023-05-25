@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import useScrollSnap from "react-use-scroll-snap";
 import Navbar from './Navbar';
 import Overlay from './Overlay';
-import Icons from "./Icons";
+// import Icons from "./Icons";
 import Typewriter from "typewriter-effect";
 import linked from "./assets/linkedin.png";
 import fb from "./assets/facebook.png";
@@ -16,14 +16,13 @@ const Home = () => {
 
   return (
     <div className="scroll-container">
+      
       {/* Start page */}
       <div className="scroll-area" ref={scrollRef} id="home">
-        <Overlay />
         <Navbar/>
         <div className="home">
-          
           <div className="home-main">
-            <p className="caption">Hi, my name is</p>
+            <p className="caption1">Hi, my name is</p>
             <div className="name">
               <Typewriter
                 onInit={(typewriter)=> {
@@ -34,7 +33,8 @@ const Home = () => {
                 }
               />
             </div>
-            <p className="caption">Software Engineer</p>
+            <p className="caption2">Software Engineer</p>
+            <p className="caption3">3rd Year at University of New South Wales</p>
           </div>
         </div>
       </div>
@@ -51,7 +51,28 @@ const Home = () => {
                 NCSS and created a tic-tac-toe game and a bowling scorecard.</p>
               <p>Fast forward to today I'm in my penultimate year of engineering, creating various software projects with enthusiastic teams. </p> 
             </div>
-            <Icons />
+            <div className="skill-container">
+              <div className="skill-div">
+                <p className="skill-heading"><center>Frontend</center></p>
+                <ul className="skill-list">
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>HTML/CSS</li>
+                  <li>Figma</li>
+                </ul>
+              </div>
+              <div className="skill-div">
+                <p className="skill-heading"><center>Backend</center></p>
+                <ul className="skill-list">
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>SQL/PostgreSQL</li>
+                </ul>
+              </div>
+              
+            </div>
+            {/* <Icons /> */}
           </div>
         </div>
       </div>
