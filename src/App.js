@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Home';
+import MainPage from './MainPage';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/*<Route path='/resume' element={<RegisterPage />} /> */}
-        <Route path='/' element={<Home />} />
+        {/*<Route path='/resume' element={<ResumePage />} /> */}
+        <Route path='/' element={<MainPage />} />
       </Routes>
     </BrowserRouter>
   );

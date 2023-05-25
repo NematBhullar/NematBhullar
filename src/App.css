@@ -43,6 +43,16 @@ p {
   scroll-snap-align: center;
 }
 
+.cursor {
+  background-color: white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /* Home Page */
 .nav {
   display: flex;
@@ -224,11 +234,13 @@ p {
     linear-gradient(to top, #A065FE 8px, transparent 8px) 100% 100%;
   background-repeat: no-repeat;
   background-size: 40px 40px;
-  transition: transform .2s;
+  transition: transform .5s, box-shadow .2s;
 }
 
 .text:hover {
   transform: scale(1.1);
+  background-color: #A065FE;
+  box-shadow: 10px 10px 0px #58388a;
 }
 
 .skill-container {
@@ -308,7 +320,8 @@ p {
 
 .each-project:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  box-shadow: 0 0 20px #caa9ff; 
+  background-color: #58388a;
 }
 
 .each-project-div img {
@@ -321,7 +334,7 @@ p {
 
 .each-project-div img:hover {
   filter: contrast(0.2) sepia(1) hue-rotate(140deg) saturate(1.4) brightness(1.05);
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .project-heading {
@@ -331,6 +344,18 @@ p {
   margin-bottom: 1rem;
 }
 
+
+/* Design Page */
+.carousel {
+  width:500px;
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-image {
+  display: block;
+  width: 500px;
+}
 
 /* Contact Page */
 .contact-main {
