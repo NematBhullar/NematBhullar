@@ -11,6 +11,7 @@ h1 {
   margin-bottom: 2rem;
   text-align: center;
   color: white;
+  transition: all .3s ease-in-out;
 }
 
 h1 span {
@@ -529,6 +530,7 @@ p {
   margin-top: 4rem;
   margin-bottom: 2rem;
   text-align: center;
+  transition: all .3s ease-in-out;
 }
 
 .final-message {
@@ -762,12 +764,3 @@ p {
     justify-content: center;
   }
 }
-
-
-/* Font smaller */
-
-/* Main should be 75vw */
-
-/* Change about me page from row to column, then skill container to row and make the text smaller */
-
-/* Projects main div to column and make the project boxes smaller */
