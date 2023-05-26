@@ -6,7 +6,7 @@ Nemat Bhullar
 ## About 
 Hello! My name is Nemat and I’m currently studying software engineering. I enjoy coding and building websites, whilst spending my free time marketing or creating UI/UX designs.
 
-# Usage
+## Usage
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
