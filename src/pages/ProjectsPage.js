@@ -28,7 +28,7 @@ const ProjectsPage = () => {
                 <a href="https://github.com/NematBhullar/PapaWeatherEvents"><img src={gitlink} alt="gitlink"/></a>
                 <a href="https://main--f12a-papa-weather.netlify.app/"><img src={link} alt="link"/></a>
               </div>
-              <p className="project-skills">Backend Development &#183; GraphQL &#183;  Product Management &#183; Analytical Skills &#183; Problem Solving</p>
+              <p className="project-skills">GraphQL &#183; Python &#183; React &#183; Product Management</p>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ const ProjectsPage = () => {
                 <a href="https://github.com/NematBhullar/IcecreamInvoicing"><img src={gitlink} alt="gitlink"/></a>
                 <a href="https://seng2021-app-d4e5c.web.app/"><img src={link} alt="link"/></a>
               </div>
-              <p className="project-skills">Backend Development &#183; Python &#183; APIs &#183; Testing</p>
+              <p className="project-skills">Python &#183; APIs &#183; React &#183; Testing</p>
             </div>
           </div>
         </div>
@@ -59,14 +59,14 @@ const ProjectsPage = () => {
             <div className="each-project">
               <img src={lurkforwork} alt="lurkforwork" className="each-project-image"/>
               <div className="project-text-overlay">
-                <p className="project-text">LurkForWork Social Networking Website, a rip-off version of the popular professional social networking tool LinkedIn.</p>
+                <p className="project-text">LurkForWork Social Networking Website is a &nbsp; rip-off version of the popular professional social networking tool LinkedIn.</p>
               </div>
             </div>
             <div className="project-caption">
               <div className="link-icons">
                 <a href="https://github.com/NematBhullar/LurkForWork"><img src={gitlink} alt="gitlink"/></a>
               </div>
-              <p className="project-skills">Frontend Development &#183; JavaScript &#183; HTML &#183; CSS &#183; UX/UI Design</p>
+              <p className="project-skills">JavaScript &#183; HTML &#183; CSS &#183; UX/UI Design</p>
             </div>
           </div>
         </div>
