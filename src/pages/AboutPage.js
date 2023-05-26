@@ -1,4 +1,5 @@
 import React from "react";
+import Arrow from "../components/Arrow.js";
 
 const AboutPage = () => {
   return (
@@ -32,7 +33,11 @@ const AboutPage = () => {
             </ul>
           </div>
         </div>
-        {/* <Icons /> */}
+      </div>
+      <div className="final-message">
+        <a href="/#projects">
+          <Arrow />
+        </a>
       </div>
     </div>
   )
