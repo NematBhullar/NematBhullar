@@ -5,7 +5,7 @@ import Arrow from "../components/Arrow.js";
 const DesignsPage = () => {
   return (
     <div className="designs">
-      <h1><span>Graphic Designs</span></h1>
+      <h1><span>Designs</span></h1>
       <div className="designs-main">
         <Slider />
       </div>

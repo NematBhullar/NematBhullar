@@ -1,5 +1,5 @@
 import React from "react";
-import Icons from "../components/Icons.js";
+// import Icons from "../components/Icons.js";
 import linked from "../assets/linkedin.png";
 import fb from "../assets/facebook.png";
 import insta from "../assets/insta.png";
@@ -34,7 +34,7 @@ const ContactPage = () => {
       </div>
       
       <div className="footer">
-        <Icons />
+        {/* <Icons /> */}
       </div>
      
       <div className="final-message">Designed and handcrafted by Nemat Bhullar</div>

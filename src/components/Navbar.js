@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../assets/logo-transparent.png';
 import { useNavigate } from "react-router-dom";
 
-const Navbar = (state) => {
+const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div className="nav">
@@ -11,7 +11,7 @@ const Navbar = (state) => {
         <li className="each-link"><a href="/#home" className="navbar-links">Home</a></li>
         <li className="each-link"><a href="/#about" className="navbar-links">About</a></li>
         <li className="each-link"><a href="/#projects" className="navbar-links">Projects</a></li>
-        <li className="each-link"><a href="/#designs" className="navbar-links">Graphic Designs</a></li>
+        <li className="each-link"><a href="/#designs" className="navbar-links">Designs</a></li>
         <li className="each-link"><a href="/#contact" className="navbar-links">Contact</a></li>
         <li className="resume-link">Resume</li>
       </ul>
@@ -19,7 +19,7 @@ const Navbar = (state) => {
         <li className="each-link"><a href="/#home" className="navbar-links">H</a></li>
         <li className="each-link"><a href="/#about" className="navbar-links">A</a></li>
         <li className="each-link"><a href="/#projects" className="navbar-links">P</a></li>
-        <li className="each-link"><a href="/#designs" className="navbar-links">G</a></li>
+        <li className="each-link"><a href="/#designs" className="navbar-links">D</a></li>
         <li className="each-link"><a href="/#contact" className="navbar-links">C</a></li>
         <li className="resume-link">R</li>
       </ul>
