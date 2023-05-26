@@ -1,4 +1,5 @@
 import React from "react";
+import Icons from "../components/Icons.js";
 import linked from "../assets/linkedin.png";
 import fb from "../assets/facebook.png";
 import insta from "../assets/insta.png";
@@ -24,16 +25,16 @@ const ContactPage = () => {
           
           <div>
             <p className="section-heading">Socials</p>
-            <img src={linked} className="social" alt="linkedin"/>
-            <img src={fb} className="social" alt="facebook"/>
-            <img src={insta} className="social" alt="instagram"/>
-            <img src={git} className="social" alt="github"/>
+            <a href="https://www.linkedin.com/in/nemat-bhullar-781058175/"><img src={linked} className="social" alt="linkedin"/></a>
+            <a href="https://github.com/NematBhullar"><img src={git} className="social" alt="github"/></a>
+            <a href="https://www.facebook.com/nemat.bhullar"><img src={fb} className="social" alt="facebook"/></a>
+            <a href="https://www.instagram.com/nematbhullar/"><img src={insta} className="social" alt="instagram"/></a>
           </div>
         </div>
       </div>
       
       <div className="footer">
-        {/* Footer */}
+        <Icons />
       </div>
      
       <div className="final-message">Designed and handcrafted by Nemat Bhullar</div>

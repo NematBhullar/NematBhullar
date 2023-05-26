@@ -14,45 +14,49 @@ const ProjectsPage = () => {
       <div className="projects-main">
         
         <div className="each-project-div">
-          <p className="project-heading">Title</p>
+          <p className="project-heading">Weather Events</p>
           <div className="each-project">
             <img src={weather} alt="weather" className="each-project-image"/>
             <div className="project-text-overlay">
-              <p className="project-text">Description</p>
+              <p className="project-text">A website that displays weather events 
+            and efficiency of power production given the weather conditions of a certain day</p>
             </div>
           </div>
           <div className="link-icons">
-            <img src={gitlink} alt="gitlink"/>
-            <img src={link} alt="link"/>
+            <a href="https://github.com/NematBhullar/PapaWeatherEvents"><img src={gitlink} alt="gitlink"/></a>
+            <a href="https://main--f12a-papa-weather.netlify.app/"><img src={link} alt="link"/></a>
           </div>
-          <p className="project-skills">React &#183; JavaScript</p>
+          <p className="project-skills">Backend Development &#183; GraphQL &#183;  Product Management &#183; Analytical Skills &#183; Problem Solving</p>
         </div>
         
         <div className="each-project-div">
-          <p className="project-heading">Title</p>
+          <p className="project-heading">Icecream E-Invoicing</p>
           <div className="each-project">
             <img src={invoice} alt="invoice" className="each-project-image"/>
             <div className="project-text-overlay">
-              <p className="project-text">Description</p>
+              <p className="project-text">An invoice transfer application 
+          that coverts input into a usable UBL format then sends it to the recipient's email.</p>
             </div>
           </div>
           <div className="link-icons">
-            <img src={gitlink} alt="gitlink"/>
-            <img src={link} alt="link"/>
+            <a href="https://github.com/NematBhullar/IcecreamInvoicing"><img src={gitlink} alt="gitlink"/></a>
+            <a href="https://seng2021-app-d4e5c.web.app/"><img src={link} alt="link"/></a>
           </div>
+          <p className="project-skills">Backend Development &#183; Python &#183; APIs &#183; Testing</p>
         </div>
 
         <div className="each-project-div">
-          <p className="project-heading">Title</p>
+          <p className="project-heading">LurkForWork</p>
           <div className="each-project">
             <img src={lurkforwork} alt="lurkforwork" className="each-project-image"/>
             <div className="project-text-overlay">
-              <p className="project-text">Description</p>
+              <p className="project-text">LurkForWork Social Networking Website, a rip-off version of the popular professional social networking tool LinkedIn.</p>
             </div>
           </div>
           <div className="link-icons">
-            <img src={gitlink} alt="gitlink"/>
+            <a href="https://github.com/NematBhullar/LurkForWork"><img src={gitlink} alt="gitlink"/></a>
           </div>
+          <p className="project-skills">Frontend Development &#183; JavaScript &#183; HTML &#183; CSS &#183; UX/UI Design</p>
         </div>
       </div>
       <div className="final-message">

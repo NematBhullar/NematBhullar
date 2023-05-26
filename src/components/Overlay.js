@@ -12,10 +12,10 @@ const Overlay = () => {
         <li><div className="line"></div></li>
       </div>
       <ul className="overlay-socials">
-        <li><img src={linked} alt="linkedin"/></li>
-        <li><img src={fb} alt="facebook"/></li>
-        <li><img src={insta} alt="instagram"/></li>
-        <li><img src={git} alt="github"/></li>
+        <li><a href="https://www.linkedin.com/in/nemat-bhullar-781058175/"><img src={linked} alt="linkedin"/></a></li>
+        <li><a href="https://github.com/NematBhullar"><img src={git} alt="github"/></a></li>
+        <li><a href="https://www.facebook.com/nemat.bhullar"><img src={fb} alt="facebook"/></a></li>
+        <li><a href="https://www.instagram.com/nematbhullar/"><img src={insta} alt="instagram"/></a></li>
         <li><div className="line"></div></li>
       </ul>
     </div>
