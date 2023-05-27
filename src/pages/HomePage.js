@@ -16,7 +16,7 @@ const HomePage = () => {
             }}
           />
         </div>
-        <p className="caption2">I'm a Software Engineer, currently in my 3rd year of study at the University of New South Wales.</p>
+        <p className="caption2">A creative frontend and backend developer, currently in my 3rd year of Software Engineering</p>
       </div>
       <div className="final-message down-arrow">
         <a href="/#about">
