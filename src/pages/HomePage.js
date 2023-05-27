@@ -16,7 +16,7 @@ const HomePage = () => {
             }}
           />
         </div>
-        <p className="caption2">A creative frontend and backend developer, currently in my 3rd year of Software Engineering</p>
+        <p className="caption2">A creative frontend and backend developer, currently in my 3rd year of Software Engineering.</p>
       </div>
       <div className="final-message down-arrow">
         <a href="/#about">
