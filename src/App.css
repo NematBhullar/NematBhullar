@@ -694,8 +694,9 @@ p {
   .project-skills {
     display: flex;
     width: 150px;
-    font-size: 9px;
+    font-size: 10px;
     text-align: right;
+    padding-left: 0.5rem;
   }
 
   .contact p {
@@ -713,24 +714,35 @@ p {
   .all-links {
     display: none;
   }
+
+  .arrow {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 40px;
+
   }
 
   .name {
     font-size: 40px;
     width: 75vw;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .caption1 {
     font-size: 18px;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .caption2 {
     font-size: 15px;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .about-main {
@@ -752,10 +764,6 @@ p {
   }
 
   .overlay-socials, .overlay-email {
-    display: none;
-  }
-
-  .arrow {
     display: none;
   }
 
