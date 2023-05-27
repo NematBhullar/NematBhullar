@@ -695,6 +695,7 @@ p {
     display: flex;
     width: 150px;
     font-size: 9px;
+    text-align: right;
   }
 
   .contact p {
@@ -734,6 +735,10 @@ p {
 
   .about-main {
     width: 95%;
+  }
+
+  .text {
+    width: 300px;
   }
 
   .text:hover {
