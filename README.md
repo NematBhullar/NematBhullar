@@ -4,7 +4,7 @@
 2. Getting Started
 
 ## 1. About 
-Hello! My name is Nemat and I’m currently studying software engineering. 
+Hello! My name is Nemat and I’m currently studying software engineering. I've developed a portfolio in React to showcase my software projects and UX/UI design skills 
 
 ## 2. Getting Started
 This project was bootstrapped with Create React App.
