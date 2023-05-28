@@ -487,6 +487,10 @@ p {
   text-align: center;
 }
 
+.contact-intro {
+  font-weight: bold;
+}
+
 .contact-info {
   display: flex;
   flex-direction: row;
