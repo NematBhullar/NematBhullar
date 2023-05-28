@@ -4,7 +4,7 @@
 Nemat Bhullar
 
 ## About 
-Hello! My name is Nemat and I’m currently studying software engineering. I enjoy coding and building websites, whilst spending my free time marketing or creating UI/UX designs.
+Hello! My name is Nemat and I’m currently studying software engineering. 
 
 ## Usage
 This project was bootstrapped with Create React App.
