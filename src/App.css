@@ -398,8 +398,7 @@ p {
 
 .project-text {
   height: 50%;
-  width: 100%;
-  padding: 1rem;
+  width: 90%;
   position: absolute;
   color: white;
   font-family: 'Inter', 'san-serif';
@@ -668,7 +667,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 180px;
+    height: 190px;
   }
 
   .project-heading {
@@ -677,7 +676,7 @@ p {
   }
 
   .each-project, .each-project-image  {
-    width: 140px;
+    width: 150px;
     height: 140px;
   }
 
@@ -692,9 +691,13 @@ p {
     justify-content: space-between;
   }
 
+  .project-caption {
+    justify-content: center;
+  }
+
   .project-skills {
     display: flex;
-    width: 150px;
+    width: 125px;
     font-size: 10px;
     text-align: right;
     padding-left: 0.5rem;
@@ -718,6 +721,12 @@ p {
 
   .arrow {
     display: none;
+  }
+
+  .link-icons img {
+    height: 19px;
+    width: 17px;
+    margin-top: 0;
   }
 }
 

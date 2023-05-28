@@ -59,7 +59,7 @@ const ProjectsPage = () => {
             <div className="each-project">
               <img src={lurkforwork} alt="lurkforwork" className="each-project-image"/>
               <div className="project-text-overlay">
-                <p className="project-text">LurkForWork Social Networking Website is a &nbsp; rip-off version of the popular professional social networking tool LinkedIn.</p>
+                <p className="project-text">LurkForWork Social Networking Website is a rip-off version of the popular professional social networking tool LinkedIn.</p>
               </div>
             </div>
             <div className="project-caption">
