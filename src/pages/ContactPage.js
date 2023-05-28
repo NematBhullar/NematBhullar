@@ -10,7 +10,7 @@ const ContactPage = () => {
     <div className="contact">
       <h1><span>Contact Me</span></h1>
       <div className="contact-main">
-        <p className="contact-intro">For any enquiries, or just to say hello, feel free to reach out through my socials.</p>
+        <p>For any enquiries, or just to say hello, feel free to reach out through my socials.</p>
         <div className="contact-info">
           
           <div>

@@ -1,3 +1,7 @@
+* {
+  font-weight: bold;
+}
+
 body {
   font-family: 'Inter', 'san-serif';
   scroll-snap-type: y mandatory;
@@ -64,7 +68,6 @@ p {
 
 /* Home Page */
 .nav {
-  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -182,7 +185,6 @@ p {
 .name {
   font-family: 'Space Mono', monospace;
   font-size: 100px;
-  font-weight: bold;
   margin: 0 2rem;
 }
 
@@ -199,7 +201,6 @@ p {
   width: 500px;
   font-family: 'Inter', 'san-serif';
   font-size: 17px;
-  font-weight: bold;
   margin: 0.5rem 1rem;
   padding: 0.5rem 1rem;
   color: white;
@@ -330,7 +331,6 @@ p {
 
 .skill-heading {
   font-family: 'Space Mono', monospace;
-  font-weight: bold;
   font-size: 14px;
   color: #A065FE;
   border-radius: 20px;
@@ -399,10 +399,10 @@ p {
 .project-text {
   height: 50%;
   width: 100%;
+  padding: 1rem;
   position: absolute;
   color: white;
   font-family: 'Inter', 'san-serif';
-  font-weight: bold;
   font-size: 18px;
   top: 50%;
   left: 50%;
@@ -468,7 +468,6 @@ p {
 .card-heading {
   font-family: 'Space Mono', 'monospace';
   font-size: 20px;
-  font-weight: bold;
   padding: 1rem;
 }
 
@@ -485,10 +484,6 @@ p {
 
 .contact-main p {
   text-align: center;
-}
-
-.contact-intro {
-  font-weight: bold;
 }
 
 .contact-info {
