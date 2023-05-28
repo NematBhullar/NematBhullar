@@ -1,12 +1,12 @@
 # Portfolio
 
-## Author
-Nemat Bhullar
+1. About 
+2. Getting Started
 
-## About 
+## 1. About 
 Hello! My name is Nemat and I’m currently studying software engineering. 
 
-## Usage
+## 2. Getting Started
 This project was bootstrapped with Create React App.
 
 In the project directory, run:
