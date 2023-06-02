@@ -9,7 +9,7 @@ import cybersecurity from "../project-assets/cybersecurity.png";
 const Slider = () => {
   const responsive = {
     desktop: {
-      breakpoint: { max: 1900, min: 1024 },
+      breakpoint: { max: 3000, min: 1024 },
       items: 3,
       slidesToSlide: 1
     },
