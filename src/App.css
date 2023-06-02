@@ -101,6 +101,11 @@ p {
   transition: all .3s ease-in-out;
 }
 
+.resume-link a {
+  text-decoration: none;
+  color: white;
+}
+
 .resume-link:hover {
   border: 1px solid transparent;
   background-color: #A065FE;
@@ -248,7 +253,7 @@ p {
 
 .about-main, .contact-main {
   width: 80vw;
-  max-width: 800px;
+  max-width: 900px;
   justify-content: space-between;
 }
 
@@ -339,7 +344,7 @@ p {
 /* Projects Page */
 .projects-main {
   width: 80vw;
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -348,7 +353,7 @@ p {
 
 .each-project-div {
   width: 25vw;
-  max-width: 250px;
+  max-width: 285px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -449,7 +454,7 @@ p {
   color: black;
   max-height: 400px;
   width: 80vw;
-  max-width: 800px;
+  max-width: 900px;
   margin-bottom: 3rem;
 }
 
