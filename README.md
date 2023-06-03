@@ -6,6 +6,8 @@
 ## 1. About 
 Hello! My name is Nemat and I’m currently studying software engineering. I've developed a portfolio to showcase my software projects and UX/UI design skills 
 
+Website: https://nematbhullar.netlify.app
+
 ## 2. Getting Started
 This project was bootstrapped with Create React App.
 
