@@ -6,7 +6,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/*<Route path='/resume' element={<ResumePage />} /> */}
         <Route path='/' element={<MainPage />} />
       </Routes>
     </BrowserRouter>

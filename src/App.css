@@ -538,6 +538,11 @@ p {
   transition: all .3s ease-in-out;
 }
 
+.footer:hover {
+  background-image: linear-gradient(90deg, #43C6D8, #A065FE);
+  box-shadow: 5px 5px #7b45d1;
+}
+
 .final-message {
   position: absolute;
   bottom: 15px;

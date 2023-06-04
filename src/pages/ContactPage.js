@@ -33,9 +33,7 @@ const ContactPage = () => {
         </div>
       </div>
       
-      <div className="footer">
-        {/* <Icons /> */}
-      </div>
+      <a href="/#home"><div className="footer"></div></a>
      
       <div className="final-message">Designed and handcrafted by Nemat Bhullar</div>
     </div>
