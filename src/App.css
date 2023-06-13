@@ -348,7 +348,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .each-project-div {
@@ -743,7 +743,6 @@ p {
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 40px;
-
   }
 
   .name {
