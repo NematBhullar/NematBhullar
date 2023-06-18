@@ -2,9 +2,10 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 
 import hoodie from "../project-assets/hoodie.png";
-import create from "../project-assets/create.png";
 import winter from "../project-assets/winter.png";
 import cybersecurity from "../project-assets/cybersecurity.png";
+import station from "../project-assets/station.png";
+import bank from "../project-assets/bank.png";
 
 const Slider = () => {
   const responsive = {
@@ -34,9 +35,9 @@ const Slider = () => {
       description: "Here is some description."
     }, {
       id: 2,
-      name: "Create",
-      imageurl: create,
-      alt: "create",
+      name: "Cybersecurity",
+      imageurl: cybersecurity,
+      alt: "cybersecurity",
       description: "Here is some description."
     }, {
       id: 3,
@@ -45,10 +46,16 @@ const Slider = () => {
       alt: "winter",
       description: "Here is some description."
     }, {
-      id: 3,
-      name: "Cybersecurity",
-      imageurl: cybersecurity,
-      alt: "cybersecurity",
+      id: 4,
+      name: "Station",
+      imageurl: station,
+      alt: "station",
+      description: "Here is some description."
+    }, {
+      id: 5,
+      name: "Bank",
+      imageurl: bank,
+      alt: "bank",
       description: "Here is some description."
     }
   ]
