@@ -1,4 +1,5 @@
 # Portfolio
+<img width="1425" alt="Screenshot 2023-08-25 at 5 35 14 pm" src="https://github.com/NematBhullar/Portfolio/assets/91060343/35ef0128-1e1c-4165-bb2e-4d45b4fe86d2">
 
 1. About 
 2. Getting Started
