@@ -5,7 +5,6 @@ import hoodie from "../project-assets/hoodie.png";
 import winter from "../project-assets/winter.png";
 import cybersecurity from "../project-assets/cybersecurity.png";
 import station from "../project-assets/station.png";
-import bank from "../project-assets/bank.png";
 import login from "../project-assets/login.png";
 import list from "../project-assets/list.png";
 import hangman from "../project-assets/hangman.png";
@@ -56,9 +55,9 @@ const Slider = () => {
       description: "Here is some description."
     }, {
       id: 5,
-      name: "Bank",
-      imageurl: bank,
-      alt: "bank",
+      name: "List",
+      imageurl: list,
+      alt: "list",
       description: "Here is some description."
     }, {
       id: 6,
@@ -68,12 +67,6 @@ const Slider = () => {
       description: "Here is some description."
     }, {
       id: 7,
-      name: "List",
-      imageurl: list,
-      alt: "list",
-      description: "Here is some description."
-    }, {
-      id: 8,
       name: "Hangman",
       imageurl: hangman,
       alt: "hangman",
