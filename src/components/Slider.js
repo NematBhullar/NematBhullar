@@ -8,6 +8,7 @@ import station from "../project-assets/station.png";
 import login from "../project-assets/login.png";
 import list from "../project-assets/list.png";
 import hangman from "../project-assets/hangman.png";
+import mentoring from "../project-assets/mentoring.png";
 
 const Slider = () => {
   const responsive = {
@@ -37,36 +38,42 @@ const Slider = () => {
       description: "Here is some description."
     }, {
       id: 2,
+      name: "Mentoring",
+      imageurl: mentoring,
+      alt: "mentoring",
+      description: "Here is some description."
+    }, {
+      id: 3,
       name: "Cybersecurity",
       imageurl: cybersecurity,
       alt: "cybersecurity",
       description: "Here is some description."
     }, {
-      id: 3,
+      id: 4,
       name: "Winter",
       imageurl: winter,
       alt: "winter",
       description: "Here is some description."
     }, {
-      id: 4,
+      id: 5,
       name: "Station",
       imageurl: station,
       alt: "station",
       description: "Here is some description."
     }, {
-      id: 5,
+      id: 6,
       name: "List",
       imageurl: list,
       alt: "list",
       description: "Here is some description."
     }, {
-      id: 6,
+      id: 7,
       name: "Login",
       imageurl: login,
       alt: "login",
       description: "Here is some description."
     }, {
-      id: 7,
+      id: 8,
       name: "Hangman",
       imageurl: hangman,
       alt: "hangman",
