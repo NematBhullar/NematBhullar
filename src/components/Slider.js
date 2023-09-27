@@ -38,21 +38,21 @@ const Slider = () => {
       description: "Here is some description."
     }, {
       id: 2,
-      name: "Mentoring",
-      imageurl: mentoring,
-      alt: "mentoring",
-      description: "Here is some description."
-    }, {
-      id: 3,
       name: "Cybersecurity",
       imageurl: cybersecurity,
       alt: "cybersecurity",
       description: "Here is some description."
     }, {
-      id: 4,
+      id: 3,
       name: "Winter",
       imageurl: winter,
       alt: "winter",
+      description: "Here is some description."
+    }, {
+      id: 4,
+      name: "Mentoring",
+      imageurl: mentoring,
+      alt: "mentoring",
       description: "Here is some description."
     }, {
       id: 5,
