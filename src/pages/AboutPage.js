@@ -35,7 +35,6 @@ const AboutPage = () => {
       </div>
       <div className="final-message">
         <a href="/#projects">
-          <Arrow />
         </a>
       </div>
     </div>

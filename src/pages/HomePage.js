@@ -1,10 +1,12 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import Arrow from "../components/Arrow.js";
+import Navbar from '../components/Navbar';
 
 const HomePage = () => {
   return (
     <div className="home">
+      <Navbar/>
       <div className="home-main">
         <p className="caption1">Hi, my name is</p>
         <div className="name">
@@ -20,7 +22,6 @@ const HomePage = () => {
       </div>
       <div className="final-message down-arrow">
         <a href="/#about">
-          <Arrow />
         </a>
       </div>
     </div>

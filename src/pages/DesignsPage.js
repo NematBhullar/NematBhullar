@@ -11,7 +11,6 @@ const DesignsPage = () => {
       </div>
       <div className="final-message">
         <a href="/#contact">
-          <Arrow />
         </a>
       </div>
     </div>
